@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Навака съели?</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Сегодня случилось что-то невообразимое!</h1>
-    <hr noshade="" color="black" size="">
- <h2><em>Знаменитый игрок в жопу <strong>"Навак"</strong> был жестоко убит в своём доме</strong></h2>
+    <div class="container">
+    <h1 id="first">Сегодня случилось что-то невообразимое!</h1>
+    <h2 id="second">Знаменитый игрок в жопу <strong>"Навак"</strong> был жестоко убит в своём доме</strong></h2>
+    <div class="Paragraph bg-yellow">
     <h3>Наш корреспондент смог запечатлить последние моменты Навака</h3>
-    <table cellspacing='15'>
-        <tr>
-            <td><img src="DeadNavak.jpeg" width="400" alt='Мёртвый Навак'></td>
-            <td><p>"Знаменитый искатель приключений на своё очко наконец-то нашёл свою смерть"- сказал <strong>Егор Захаров</strong>. <br>
-                Сейчас все, кто был знаком с этим великим человеком в трауре.<br>
-            К величайшему сожалению никто не смог услышать его последние слова. <br>
-            Сейчас все могут только гадать о том кому он оставил своего <strong>"легендарного мага"</strong>, который не может выдать достаточное количество <strong>ДПС.</strong></p></td>
-        </tr>
-    </table>
-    <hr size="" noshade="" color='black'>
-    <h3>Его достижений не так уж много</h3>
+    <div class="info">
+        <img src="DeadNavak.jpeg" alt='Мёртвый Навак' class="DeadNavak" />
+        <p>"Знаменитый искатель приключений на своё очко наконец-то нашёл свою смерть"- сказал <strong>Егор Захаров</strong>. <br>
+        Сейчас все, кто был знаком с этим великим человеком в трауре.<br>
+        К величайшему сожалению никто не смог услышать его последние слова. <br>
+        Сейчас все могут только гадать о том кому он оставил своего <strong>"легендарного мага"</strong>, который не может выдать достаточное количество <strong>ДПС.</strong></p></td>
+    </div>
+    </div>
+    <br>
+    <div class="card bg-green">
+    <h3 id="Notop">Его достижений не так уж много</h3>
     <h4>Лист достижений</h4>
-    <ul type='square'>
+    <ul id="ulfuck">
         <li>Передамажил мага 5.5 в 6к</li>
         <li>Поменял пароль от World of Warcraft</li>
         <li>Послал своего отца "нахуй"</li>
     </ul>
-    <hr size="" noshade="" color='black'>
-    <table border="1" cellspacing='2'>
+    <table class="table" cellspacing="0">
     <thead>
     <tr>
         <th>Имя</th>
@@ -36,7 +37,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr>
+    <tr class="tablefirst">
         <td>Novikovass</td>
         <td>6040</td>
         <td>12.500</td>
@@ -49,22 +50,40 @@
 </tbody>
     <tfoot></tfoot>
 </table>
-<hr size="" noshade="" color='black'>
-    <h4>Социальная сеть</h4>
-<p><a href="https://vk.com/ra3goh" target="_blank">Вконтакте Навака</a></p>
-
-<a href="Pidor.html">Ахахахаххаха</a>
-<hr size="" noshade="" color='black'>
-<h4>Связаться с гением</h4>
+</div>
+<div class="card bg-red">
+<a href="https://vk.com/ra3goh" target="_blank">Вконтакте Навака</a><br><a href="https://ezwow.org/index.php?app=isengard&module=core&tab=armory&section=character&realm=1&character=3160687&action=overview" target="_blank">"Isengard"</a>
+</div>
+<!-- <<a href="Pidor.html">Ахахахаххаха</a>  -->
+<div class="contact">
+<h3>Связаться с гением</h3>
 <form action="/">
+    <div class="row">
+    <div class="form-group">
         <label for="name">Ваше имя:</label>
         <input type="text" name="" id="name" placeholder="Введите имя...">
-        <br>
-    <label for="proposition">Пожелание:</label>
-    <br>
-    <textarea name="" id="preposition" cols="50" rows="10"></textarea>
-    <br>
-    <input type="submit" value="Отправить пожелание">
+    </div>
+    <div class="form-group">
+    <label for="email">Ваш email:</label>
+    <input type="text" name="" id="email" placeholder="Введите email"></input>
+</div>
+</div>
+        <div class="form-group">
+    <label for="message">Ваше сообщение:</label>
+    <textarea name="" id="message"  rows="10"></textarea>
+</div>
+    <input  class="btn" type="submit" value="Отправить сообщение">
+
 </form>
+</div>
+<!-- <div class="model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<div style="margin-bottom: 500px;"></div> -->
+</div>
 </body>
 </html>

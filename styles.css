@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+body {
+  background-color: #70a9b8;
+  color: rgb(58, 6, 78);
+  font: normal 18px "Oswald", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* font-size: 18px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;  */
+}
+h4{
+  margin-top: 12px;
+}
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+a:visited {
+  color: green;
+}
+.DeadNavak /* Если id то # */
+ {
+  width: 25%;
+  max-height: 30%px;
+  max-width: 40%;
+  border-radius: 8%;
+  box-shadow: 0px 0px 20px 9px rgb(0, 0, 0, 25);
+}
+.Paragraph p {
+  color: #000000;
+  margin: 0;
+  font-style: italic;
+  text-decoration: underline;
+  /* text-transform: lowercase */
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 21px;
+  padding: 0px 10px;
+}
+.Paragraph{
+border-radius: 20px;
+border-style: solid;
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+  border-width: 0px 5px;
+  border-color: pink;
+  border-style: inset;
+  padding: 0 5px; 
+}
+
+#first {
+  margin-top: 0;
+  text-align: center;
+/*   border-width: 0px 0px 3px 0px;
+  border-style: solid;
+  border-color: lightpink; */
+}
+#second{
+  text-align: center;
+}
+/* .model > div {
+  float: left;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  background-color: black;
+  box-sizing: border-box;
+} */
+#ulfuck{
+  margin-bottom: 0px;
+  padding: 0px 20px;
+  list-style-image: url("basenkaa.jpg");
+}
+#ulfuck li {
+  margin-bottom: 5px;
+  color: rgb(29, 3, 21)
+}
+.card{
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 15px 20px;
+}
+.bg-yellow{
+  background-color: #fff9dc;
+}
+.bg-green{
+  background-color: #e5ffe7;
+}
+.bg-red{
+  background-color: #ffe5e5;
+}
+#Notop{
+  margin-top: 0px;
+}
+.card table{
+  margin-top: 20px;
+}
+.table td{
+  border: 2px solid black;
+}
+  .table td:nth-child(2), .table td:nth-child(3){
+ border-left: 0px;
+}
+.tablefirst > td{
+  border-bottom: 0px;
+}
+/* .contact h3 {
+text-align: center;
+} */
+.form-group label{
+display: block;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: antiquewhite;
+  border: 2px solid rgb(58, 6, 78);
+  border-radius: 5px;
+  padding: 2px 2 2px;
+  outline: none;
+  font-family: inherit;
+}
+.row{
+display: flex; 
+}
+.row > .form-group{
+  width: 35%;
+}
+.row > .form-group:first-child {
+margin-right: 15px;
+}
+.info{
+display: flex; 
+}
+@media(max-width: 700px){
+.info{
+  display: block;
+}
+.DeadNavak{
+width: 100%;
+height: 100%;
+}
+}
+.btn{
+  cursor: pointer;
+  font-family: inherit;
+  background: transparent;
+  border-radius: 5px;
+  color: rgb(58, 6, 78);
+  border-color: rgb(58, 6, 78);
+  margin-bottom: 5px;
+}
+.btn:hover{
+  opacity: 0.9;
+}
